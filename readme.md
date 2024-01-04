@@ -55,9 +55,23 @@ It will add `-sim` if it's found to be a `type` simulation.
 ![qownnotes-media-OzWFtl](media/qownnotes-media-OzWFtl.png)
 
 ### Create offline package
-It doesn't use the CLI of the Simatic Runtime Manager. This functionality is currently limited to projects with `type` Project, so **Simulation** isn't supported yet. 
+It doesn't use the CLI of the Simatic Runtime Manager. This functionality is currently limited to some features listed here:
 
-This will create a .zip "offline package" into the directory: `C:\Users\Public\Documents\Unified Project Selector\offline`
+|Functionalities|Comments|
+|---|---|
+| Tag Persistence  | Currently not supported. It will recreate the DB according to your settings in Tia Portal `Runtime Settings > Storage system` and start a new archive. Make a proper backup of the DB to be able to restore it. |
+| Tag Logging  | Currently not supported. It will recreate the DB according to your settings in Tia Portal `Runtime Settings > Storage system` and start a new archive. Make a proper backup of the DB to be able to restore it. |
+| Alarm Logging  | Currently not supported. It will recreate the DB according to your settings in Tia Portal `Runtime Settings > Storage system` and start a new archive. Make a proper backup of the DB to be able to restore it. |
+| Parameter Control (PaCo)  | Planned for later release, currently it's not supported. You must backup the content of the directory `C:\ProgramData\SCADAProjects\<project>\PACODB` and place it back again after the download of the offline package. |
+| Faceplates  | Supported |
+| Custom Web Controls (CWC)  | Supported |
+| Scheduled Tasks  | Supported |
+| UMC Data  | Limited support. <br> If the file `UMCData.json` exist in `C:\ProgramData\SCADAProjects\project>\currentConfiguration`, it will load the user management. If not, the last available configuration will be used (same as if you download withouth unchecking the box "keep user administration data in runtime).  |
+
+***Note**: Projects with `type` Project, so *Simulation* isn't supported yet. 
+
+This function will create a .zip "offline package" into the directory: `C:\Users\Public\Documents\Unified Project Selector\offline`
+
 
 ![qownnotes-media-JSunhQ](media/qownnotes-media-JSunhQ.png)
 
