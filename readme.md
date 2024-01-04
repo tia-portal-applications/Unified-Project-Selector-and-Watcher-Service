@@ -68,7 +68,7 @@ It doesn't use the CLI of the Simatic Runtime Manager. This functionality is cur
 | Scheduled Tasks  | Supported |
 | UMC Data  | Limited support. <br> If the file `UMCData.json` exist in `C:\ProgramData\SCADAProjects\project>\currentConfiguration`, it will load the user management. If not, the last available configuration will be used (same as if you download withouth unchecking the box "keep user administration data in runtime).  |
 
-***Note**: Projects with `type` Project, so *Simulation* isn't supported yet. 
+***Note**: Projects with `type` *Simulation* are not supported. 
 
 This function will create a .zip "offline package" into the directory: `C:\Users\Public\Documents\Unified Project Selector\offline`
 
