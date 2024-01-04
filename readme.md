@@ -62,7 +62,7 @@ It doesn't use the CLI of the Simatic Runtime Manager. This functionality is cur
 | Tag Persistence  | Currently not supported. It will recreate the DB according to your settings in Tia Portal `Runtime Settings > Storage system` and start a new archive. Make a proper backup of the DB to be able to restore it. |
 | Tag Logging  | Currently not supported. It will recreate the DB according to your settings in Tia Portal `Runtime Settings > Storage system` and start a new archive. Make a proper backup of the DB to be able to restore it. |
 | Alarm Logging  | Currently not supported. It will recreate the DB according to your settings in Tia Portal `Runtime Settings > Storage system` and start a new archive. Make a proper backup of the DB to be able to restore it. |
-| Parameter Control (PaCo)  | Planned for later release, currently it's not supported. You must backup the content of the directory `C:\ProgramData\SCADAProjects\<project>\PACODB` and place it back again after the download of the offline package. |
+| Parameter Control (PaCo)  | Currently it's not supported. You must backup the content of the directory `C:\ProgramData\SCADAProjects\<project>\PACODB` and place it back again after the download of the offline package. |
 | Faceplates  | Supported |
 | Custom Web Controls (CWC)  | Supported |
 | Scheduled Tasks  | Supported |
