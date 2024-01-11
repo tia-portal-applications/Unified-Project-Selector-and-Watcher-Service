@@ -1,11 +1,5 @@
 Unified Project Selector - V0.0.10
 ========================
-# Disclaimer:
-
->  The examples are non-committal and do not lay any claim to completeness with regard to configuration and equipment as well as any eventualities. The examples do not represent any custom-designed solutions but shall offer only support at typical tasks. You are accountable for the proper mode of the described products yourself.
-> 
->  These examples do not discharge you from the obligation to safe dealing for application, installation, business and maintenance. By use of these examples, you appreciate that Siemens cannot be made liable for possible damages beyond the provisions regarding described above. We reserve us the right to carry out changes at these examples without announcement at any time. The contents of the other documentation have priority at deviations between the suggestions in these examples and other Siemens publications, such as catalogues 
-
 # Unified Project Selector
 
 ## Scope of the program
@@ -128,3 +122,9 @@ Some functionalities available with UPS-WS V0.0.10:
 ### Tips & Tricks
 There's also a config file for the UPS-WS, located at: `C:\Users\Public\Documents\Unified Project Selector\settings\watcher.cfg`. It contains the current settings for **Enabled** and **Autostart** as well as the folder path of the **Watcher Directory**.
 
+
+# Disclaimer:
+
+>  The examples are non-committal and do not lay any claim to completeness with regard to configuration and equipment as well as any eventualities. The examples do not represent any custom-designed solutions but shall offer only support at typical tasks. You are accountable for the proper mode of the described products yourself.
+> 
+>  These examples do not discharge you from the obligation to safe dealing for application, installation, business and maintenance. By use of these examples, you appreciate that Siemens cannot be made liable for possible damages beyond the provisions regarding described above. We reserve us the right to carry out changes at these examples without announcement at any time. The contents of the other documentation have priority at deviations between the suggestions in these examples and other Siemens publications, such as catalogues 
